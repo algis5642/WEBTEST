@@ -1,0 +1,54 @@
+.sidebar {
+    width: 20%;
+   /* float: left;*/
+    background: #15488c;
+    align-self: stretch;
+    margin-left: 15px;
+    margin-bottom: fill;
+
+}
+
+.rightSide {
+   /* float: right;*/
+    background: #ff8282;
+    width: 80%;
+    align-self: stretch;
+    height: 100%;
+    margin-right: 15px;
+}
+
+div.rightSide header div.title {
+    width: 97%;
+    float: left}
+
+div.rightSide header div.burger {
+    width: 3%;
+
+    float: right;
+}
+
+div.rightSide article {
+    float: right;
+
+
+
+ }
+
+ div.main {
+     display: flex;
+     height: 100%;
+     background: yellow;
+
+
+ }
+ body {
+     height: 100%;
+     background: darkgray}
+
+ html {
+     height: 98%;
+ }
+
+ div.footer {
+     width: 100%;
+ }

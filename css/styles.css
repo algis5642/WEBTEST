@@ -1,0 +1,41 @@
+div.rightSide header div.title {
+    background: lightblue;
+    text-align: center;
+
+
+}
+
+div.rightSide article p {
+    border-style: solid;
+    border-width: 8px;
+    border-color: crimson;
+
+}
+
+div.rightSide article div{
+    position: static;
+}
+
+
+div.rightSide article div div{
+ position: relative;
+}
+
+div.rightSide article div div div{
+ position: absolute;
+}
+
+div.sidebar img {width: 100%;}
+
+div.rightSide header div.burger {
+    background: aqua;
+}
+
+div.footer {
+    background: greenyellow;
+    /*width: 100%;*/
+}
+
+div.main div.sidebar div.meniu ul {
+    margin-left: 4%;
+}
