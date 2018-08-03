@@ -12,7 +12,7 @@
    /* float: right;*/
     background: #ff8282;
     width: 80%;
-    align-self: stretch;
+    /*align-self: stretch;*/
     height: 100%;
     margin-right: 15px;
 }
@@ -21,14 +21,14 @@ div.rightSide header div.title {
     width: 97%;
     float: left}
 
-div.rightSide header div.burger {
+div.rightSide header div.burgerbtn {
     width: 3%;
 
     float: right;
 }
 
 div.rightSide article {
-    float: right;
+    /*float: left;*/
 
 
 
@@ -46,7 +46,7 @@ div.rightSide article {
      background: darkgray}
 
  html {
-     height: 98%;
+     height: 97%;
  }
 
  div.footer {

@@ -1,0 +1,33 @@
+@keyframes example {
+    from {
+        background-color: yellow;
+    }
+    to {
+        background-color: lightblue;
+    }
+
+    0% {
+        text-emphasis: yellow ;
+    }
+    30% {
+        text-emphasis: black;
+    }
+    100% {
+        text-emphasis: red;
+    }}
+
+    .sidebar
+
+{
+
+        background-color: lightblue
+;
+    animation-name: example
+;
+    animation-duration: 4s
+;
+}
+
+
+
+

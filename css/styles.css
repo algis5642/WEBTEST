@@ -9,12 +9,14 @@ div.rightSide article p {
     border-style: solid;
     border-width: 8px;
     border-color: crimson;
-
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-div.rightSide article div{
+/*div.rightSide article div{
     position: static;
-}
+}*/
 
 
 div.rightSide article div div{
@@ -38,4 +40,20 @@ div.footer {
 
 div.main div.sidebar div.meniu ul {
     margin-left: 4%;
+}
+
+div.main div.rightSide article form div.kairePuse {
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+div.main div.rightSide article form div.desinePuse {
+    float: right;
+}
+
+div.main div.rightSide article iframe {
+
+
 }
