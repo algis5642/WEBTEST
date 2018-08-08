@@ -15,13 +15,6 @@ div.rightSide article p {
     margin-right: 40px;
 }
 
-div.rightSide article div div{
- position: relative;
-}
-
-div.rightSide article div div div{
- position: absolute;
-}
 
 div.sidebar img {width: 100%;}
 
@@ -35,7 +28,10 @@ div.rightSide header div.burgerbtn {
 
 }
 
-div.footer {
+.footeris {
+    width: 100%;
+    bottom: 0;
+    clear: both;
 
 }
 
@@ -104,6 +100,9 @@ body {
     color: white;
     font-style: oblique;
     font-size: larger;
+
+
+
 }
 
 img#lempa {
@@ -113,3 +112,19 @@ img#lempa {
 
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.grid-item {
+    width: 350px;
+    height: 350px;
+    border: 1px dotted lightgray;
+}
+
+.article {
+
+}
