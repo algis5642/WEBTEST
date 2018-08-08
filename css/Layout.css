@@ -1,7 +1,7 @@
 .sidebar {
     width: 20%;
    /* float: left;*/
-    background: #15488c;
+   /* background: #15488c;*/
     align-self: stretch;
     margin-left: 15px;
     margin-bottom: fill;
@@ -10,7 +10,7 @@
 
 .rightSide {
    /* float: right;*/
-    background: #ff8282;
+    /*background: #ff8282;*/
     width: 80%;
     /*align-self: stretch;*/
     height: 100%;
@@ -18,17 +18,20 @@
 }
 
 div.rightSide header div.title {
+    height: 50px;
     width: 97%;
     float: left}
 
 div.rightSide header div.burgerbtn {
+    height: 50px;
     width: 3%;
 
     float: right;
 }
 
 div.rightSide article {
-    /*float: left;*/
+    margin-top: 150px;
+
 
 
 
@@ -37,16 +40,16 @@ div.rightSide article {
  div.main {
      display: flex;
      height: 100%;
-     background: yellow;
+    /* background: yellow;*/
 
 
  }
  body {
-     height: 100%;
-     background: darkgray}
+     height: 100%;}
+
 
  html {
-     height: 97%;
+     height: 96%;
  }
 
  div.footer {

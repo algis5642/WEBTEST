@@ -5,29 +5,83 @@
     to {
         background-color: lightblue;
     }
-
-    0% {
-        text-emphasis: yellow ;
-    }
-    30% {
-        text-emphasis: black;
-    }
-    100% {
-        text-emphasis: red;
-    }}
-
-    .sidebar
-
-{
-
-        background-color: lightblue
-;
-    animation-name: example
-;
-    animation-duration: 4s
-;
 }
 
+@keyframes foooter {
+    5% {
+        background-color: yellow;
+    }
+    10% {
+        background-color: lightblue;
+    }
 
+    20% {
+        background-color: yellow;
+    }
+
+    30% {
+        background-color: lightblue;
+    }
+
+    40% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: lightblue;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+
+}
+
+@keyframes burgger {
+
+    0% {
+        background-color: yellow;
+    }
+    30% {
+        background-color: black;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+.sidebar {
+
+    background-color: lightblue;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+.title {
+
+    /*background-color: lightblue;*/
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+.burgerbtn {
+
+    /*background-color: red;;*/
+    animation-name: burgger;
+    animation-duration: 3s;
+}
+
+.footer {
+
+
+
+    /*background-color: red
+;*/
+
+    animation-name: foooter
+;
+    animation-duration: 3s
+;
+}
 
 

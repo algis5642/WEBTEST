@@ -1,6 +1,7 @@
 div.rightSide header div.title {
-    background: lightblue;
     text-align: center;
+    font-size: 20pt;
+    height: 50px;
 
 
 }
@@ -14,11 +15,6 @@ div.rightSide article p {
     margin-right: 40px;
 }
 
-/*div.rightSide article div{
-    position: static;
-}*/
-
-
 div.rightSide article div div{
  position: relative;
 }
@@ -29,17 +25,23 @@ div.rightSide article div div div{
 
 div.sidebar img {width: 100%;}
 
-div.rightSide header div.burger {
-    background: aqua;
+div.rightSide header div.burgerbtn {
+    font-size: 3vh;
+    text-align: center;
+    border-width: thick;
+    border-style: double;
+
+
+
 }
 
 div.footer {
-    background: greenyellow;
-    /*width: 100%;*/
+
 }
 
 div.main div.sidebar div.meniu ul {
     margin-left: 4%;
+.nav-stacked
 }
 
 div.main div.rightSide article form div.kairePuse {
@@ -50,10 +52,64 @@ div.main div.rightSide article form div.kairePuse {
 }
 
 div.main div.rightSide article form div.desinePuse {
-    float: right;
+    float: left;
 }
 
-div.main div.rightSide article iframe {
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 19.6% ;
+
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+p {
+    font-style: normal;
+    font-family: Arial;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+body {
+
+    min-height: 500px;
+
+    background: url("/pictures/codecode.jpg") no-repeat fixed center;
+
+    background-size: cover;
+
+    color: white;
+    font-style: oblique;
+    font-size: larger;
+}
+
+img#lempa {
+    height: 200px;
+    width: 200px;
 
 
 }
+

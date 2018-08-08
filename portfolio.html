@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <link rel="stylesheet" href="css/animacija.css">
-    <script src="js/matematika.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
 </head>
@@ -17,8 +18,8 @@
 
 <div class="main">
 <div class="sidebar">
-    <img src="logo.jpg" alt="Logo"/>
-    <div class="meniu">
+    <img src="/pictures/logo.jpeg" alt="Logo"/>
+    <div class="nav" role="navigation">
         <ul>
            <li class="elem"><a href="index.html">Apie mane</a></li>
             <li class="elem"><a href="portfolio.html">Portfolio</a></li>
@@ -29,10 +30,32 @@
 <div class="rightSide">
     <header>
         <div class="title">Portfolio</div>
-        <div class="burgerbtn">=</div>
+        <div class="burgerbtn"><i class="fa fa-bars" aria-hidden="true"></i></div>
     </header>
     <article>
         <P>PORTFOLIO TEXTAS!!!</P>
+        <form>
+        <p id="skaiciavimas"></p>
+            <select id="metalas">
+                <option value="varinis">varinis</option>
+                <option value="aliuminis">aliuminis</option>
+            </select>
+            <select id="itampa">
+                <option value="1">vienfazis</option>
+                <option value="3">trifazis</option>
+            </select>
+        <input type="text" id="apkrova" placeholder="Numatoma apkrova KW"/><br>
+        <input type="text" id="ilgis" placeholder="Kabelio apytikslis ilgis metrais"/><br>
+        <input type="button" value="Siusti" onclick="Skaiciuoti()"/><br>
+            <p>
+                <span id="rez"></span>
+            </p>
+        </form>
+        <div class="lempute">
+        <img id="lempa" src="/pictures/bulb.jpg" onclick="changeImage()" />
+        
+        </div>
+        
     </article>
 </div>
 </div>
@@ -41,5 +64,9 @@
 </div>
 
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/matematika.js"></script>
+<script src="js/turnonbulb.js"></script>
 </body>
 </html>
