@@ -1,11 +1,32 @@
-function toggleSideBar() {
+function toggleSidebar(){
+    $('.sidebar').slideToggle();
+    if (sideState) {
+        $('.mainLayout').css('grid-template-columns','1fr');
+    } else {
+        $('.mainLayout').css('grid-template-columns','1.2fr 5fr');
+    }
+    sideState = !sideState;
+}
+
+$('.burgerbtn').click(function(){
+    // $('.sidebar').slideToggle();
+    toggleSidebar();
+});
+
+
+
+
+
+/*function toggleSideBar() {
 $('.sidebar').slideToggle();
 
 }
 
 $('.burgerbtn').click(function() {
     toggleSideBar()
-});
+    $('.sidebar
+
+});*/
 
 
 $('sakmatai span').click(function () {

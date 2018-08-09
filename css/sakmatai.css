@@ -15,3 +15,7 @@
     height: 30px;
     border: 1px dotted lightgray;
 }
+
+function myFunction(x) {
+    x.classList.toggle("fa-thumbs-down");
+}

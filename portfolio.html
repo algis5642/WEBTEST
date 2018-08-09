@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/animacija.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/sakmatai.css">
+    <link rel="stylesheet" href="css/picStyle.css">
+
 
 
 </head>
@@ -18,7 +20,7 @@
 
 <div class="main">
     <div class="sidebar">
-        <img src="/pictures/logo.jpeg" alt="Logo"/>
+        <img class="logo" src="/pictures/logo.jpeg" alt="Logo"/>
         <div class="nav" role="navigation">
             <ul>
                 <li class="elem"><a href="index.html">Apie mane</a></li>
@@ -30,43 +32,43 @@
     <div class="rightSide">
         <header>
             <div class="title">Portfolio</div>
-            <div class="burgerbtn"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            <div class="burgerbtn"><i class="fa fa-bars" aria-hidden="true" onclick="toggleSideBar()"></i></div>
         </header>
         <article class="article" style="overflow-y: scroll; height:550px;">
 
             <div class="grid-container">
-                <div class="grid-item"><P>PORTFOLIO TEXTAS!!!</P>
+                <div class="grid-item"><P class="mirgantisText"><b>Čia surinkta keletas pavyzdžių iš atliktų užduočių "PROGRAMAVIMO PAGRINDAI" kurso metu.</b></P>
 
                 </div>
 
                 <div class="grid-item">
                     <form>
-                        <p id="skaiciavimas"></p>
+                        <p id="skaiciavimas">Kabelių skersmens skaičiuoklė</p>
                         <select id="metalas">
-                            <option value="varinis">varinis</option>
+                            <option value="varis">varinis</option>
                             <option value="aliuminis">aliuminis</option>
                         </select>
                         <select id="itampa">
-                            <option value="1">vienfazis</option>
-                            <option value="3">trifazis</option>
+                            <option value="mazas">vienfazis</option>
+                            <option value="didelis">trifazis</option>
                         </select>
                         <input type="text" id="apkrova" placeholder="Numatoma apkrova KW"/><br>
-                        <input type="text" id="ilgis" placeholder="Kabelio apytikslis ilgis metrais"/><br>
-                        <input type="button" value="Siusti" onclick="Skaiciuoti()"/><br>
+
+                        <input type="button" value="Siusti" onclick="skaiciuoti()"/><br>
                         <p>
                             <span id="rez"></span>
                         </p>
                     </form>
                 </div>
 
-                <div class="grid-item">
+                <div class="grid-item centravimas">
                     <div class="lempute">
                         <img id="lempa" src="/pictures/bulb.jpg" onclick="changeImage()"/>
 
                     </div>
                 </div>
 
-                <div class="grid-item">
+                <div class="grid-item centravimas">
                     <div class="sakmatai">
                         <div class="cell"></div>
                         <div class="cell"></div>
@@ -136,7 +138,7 @@
                     </div>
                 </div>
 
-                <div class="grid-item">
+                <div class="grid-item centravimas" >
                     <div class="smile">
 
                         <div class="cell"></div>
@@ -205,8 +207,37 @@
                     </div>
                 </div>
 
+                <div class="grid-item centravimas" >
+
+                    <img id="javaPic" src="/pictures/Java_portfolio.jpg" alt="Mokiausi JAVA pagrindų" style="width:100%;max-width:330px">
+
+
+                    <div id="myModal" class="modal">
+
+                        <span class="close">&times;</span>
+
+
+                        <img class="modal-content" id="img01">
+
+
+                        <div id="caption"></div>
+                    </div>
+
+
+
+
+                </div>
+
                 <div class="grid-item">
 
+
+
+                    <div class="container centravimas">
+                        <img src="/pictures/VisualStudio.jpg" alt="csharp" class="image">
+                        <div class="overlay">
+                            <div class="text">Susipažinimas su programavimu prasidejo nuo C#</div>
+                        </div>
+                    </div>
 
 
 
@@ -214,11 +245,19 @@
 
                 </div>
 
-                <div class="grid-item">7</div>
+                <div class="grid-item">
 
-                <div class="grid-item">8</div>
 
-                <div class="grid-item">9</div>
+                    <a href="/pictures/Csharp03.jpg" target="_blank"><img class="shake centravimas" src="pictures/Csharp03.jpg" height="80%" width="100%" /> </a>
+                </div>
+
+                <div class="grid-item">
+
+
+
+
+
+                </div>
             </div>
 
 
@@ -230,6 +269,9 @@
 </div>
 
 
+
+
+<script src="js/picJavaScript.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/jQuerry_lempute.js"></script>
 <script src="js/matematika.js"></script>
