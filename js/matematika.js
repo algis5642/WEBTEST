@@ -213,7 +213,7 @@ function skaiciuoti() {
     for (let i = 0 ; i< parinktasGalingumas.length; i++){
         let range = parinktasGalingumas[i];
         if (apkrova >= range.range[0] && apkrova < range.range[1]){
-            document.getElementById('rez').innerHTML = range.diameter;
+            document.getElementById('rez').innerHTML = 'Esant ' + apkrova + 'KW apkrovai kabelio skersmuo turi būti nemažesnis nei: '+ range.diameter + 'mm^2';
             radau = true;
             break;
         }

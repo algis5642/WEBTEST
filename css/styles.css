@@ -7,9 +7,7 @@ div.rightSide header div.title {
 }
 
 div.rightSide article p {
-    border-style: solid;
-    border-width: 2px;
-    border-color: #dee2e6;
+    border: 2px solid #dee2e6;
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
@@ -21,8 +19,7 @@ div.sidebar img {width: 100%;}
 div.rightSide header div.burgerbtn {
     font-size: 3vh;
     text-align: center;
-    border-width: thick;
-    border-style: double;
+    border: thick double;
 }
 
 .footeris {
@@ -80,7 +77,7 @@ li a:hover:not(.active) {
 
 p {
     font-style: normal;
-    font-family: Arial;
+    font-family: "Times New Roman";
     text-indent: 50px;
     text-align: justify;
     letter-spacing: 2px;
@@ -172,19 +169,19 @@ img#lempa {
 
 * {box-sizing:border-box}
 
-/* Slideshow container */
-.slideshow-container {
+
+.slideshow-kontainer {
     max-width: 1000px;
     position: relative;
     margin: auto;
 }
 
-/* Hide the images by default */
+
 .mySlides {
     display: none;
 }
 
-/* Next & previous buttons */
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -199,18 +196,18 @@ img#lempa {
     border-radius: 0 3px 3px 0;
 }
 
-/* Position the "next button" to the right */
+
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+
 .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -221,7 +218,7 @@ img#lempa {
     text-align: center;
 }
 
-/* Number text (1/3 etc) */
+
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -230,7 +227,7 @@ img#lempa {
     top: 0;
 }
 
-/* The dots/bullets/indicators */
+
 .dot {
     cursor: pointer;
     height: 15px;
@@ -246,12 +243,12 @@ img#lempa {
     background-color: #717171;
 }
 
-/* Fading animation */
+
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
 }
 
 @-webkit-keyframes fade {
@@ -267,4 +264,16 @@ img#lempa {
 .paveikslelioDydis {
     height: 50%;
     width: 50%;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    opacity: .7;
+    background-color: black ;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
 }
